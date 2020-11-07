@@ -57,6 +57,4 @@ Nguyên lí thiết kế của hàm là tạo ra một ống ‘pipe’ bằng h
 
 
 
-### Tài liệu tham khảo:
-Linux's man page ở dạng [web](https://linux.die.net/man/) và dạng `CLI` với lệnh `man <lệnh cần tra cứu>.`
 
