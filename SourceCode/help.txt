@@ -1,0 +1,33 @@
+----------------------------------- Help command -----------------------------------
+--1. Sepecial command
+  + hello                  	  : show group information
+  + help		   	  : help
+  + exit    		   	  : quit program
+  + cd 				  : change current directory
+
+--2. History command 
+  + history			  : show all input command
+  + !!				  : re-execute the last input command
+
+--3. Simple command		  : include all system command
+  +  echo [-neE] [arg ...]	  
+  +  exit [n]
+  +  ls
+  +  ...
+
+--4. Redirector
+  + export output of command to a file
+	 syntax: 	command -arguments ... > filename
+	 example:	ls -l /home/vic/extraMP3s/*.mp3 > mp3files.txt
+  + take input from a file
+         syntax:        command -arguments ... < filename
+         example:       sort -n < numberfile.txt
+  + append output of command to a file
+         syntax: 	command -arguments ... >> filename
+         example:       echo Welcome to my shell >> outfile.txt
+
+--5. Piped command
+  + used to chain two commands together
+         syntax:        command 1 -arguments ... | command 2 -arguments
+	 example:       ls -la /usr/bin | less
+
